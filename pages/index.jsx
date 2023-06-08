@@ -4,7 +4,7 @@ import { PostGrid } from '../components/grid';
 import Layout from '../components/layout';
 import { getFooterMenu } from '../lib/Menus';
 import { getLatestPosts } from '../lib/Posts';
-import { se1tOutgoingHeaders } from '../lib/setOutgoingHeaders';
+import { setOutgoingHeaders } from '../lib/setOutgoingHeaders';
 import styles from './index.module.css';
 
 export default function Home({ menuItems, posts }) {
