@@ -15,7 +15,7 @@ export default function Home({ menuItems, posts }) {
 				<a className={`${styles.next} text-blue-500`} href="https://nextjs.org">
 					Next.js!
 				</a>
-			</h1>
+			</h1> draft pr2
 			<div className={styles.onPantheon}>
 				<span>Decoupled WordPress on </span>
 				<Image
